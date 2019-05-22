@@ -1,0 +1,419 @@
+@charset "UTF-8";
+/*region头顶导航栏*/
+.headerCustomStyle {
+    margin-bottom: 0!important;
+    height: 100px;
+    line-height: 100px;
+}
+#bs-example-navbar-collapse-1 {
+    /*margin: 25px 0;*/
+    padding: 25px 0!important;
+    overflow: hidden;
+}
+.navbar-toggle {
+    margin-top: 33px!important;
+}
+.navBarSpecial {
+    background: #5BC0DE;
+    border-radius: 10px;
+}
+.navBarSpecial a {
+    color: white !important;
+}
+.navBarSpecial:hover {
+    background: #31B0D5;
+}
+#bs-example-navbar-collapse-1 {
+    background-color: #F8F8F8;
+}
+#bs-example-navbar-collapse-1 li a {
+    color: #323232;
+    font-size: 16px;
+}
+#bs-example-navbar-collapse-1 a:hover {
+    color: #31B0D5;
+}
+/*endregion*/
+
+/*region 专业的Magento服务*/
+.container {
+    text-align: center;
+}
+.custom {
+    margin-top: 70px;
+    color: #333;
+}
+.custom h2 {
+    font-size: 36px;
+}
+.custom span {
+    display: block;
+    margin: 20px auto 10px;
+    background: #31B0D5;
+    height: 3px;
+    width: 60px;
+}
+.custom p {
+    font-size: 20px;
+}
+.custom .content {
+    margin-top: 20px;
+}
+.custom .content h3 {
+    font-size: 24px;
+}
+.custom .content p {
+    width: 182px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+/*region字体图标*/
+.iconfont.icon-dengpao{
+    color: #31B0D5;
+    font-size: 85px;
+}
+.iconfont.icon-xianshiping {
+    color: #31B0D5;
+    font-size: 85px;
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+.iconfont.icon-qianyi,
+.iconfont.icon-huojian,
+.iconfont.icon-shouji,
+.iconfont.icon-weixin,
+.iconfont.icon-fangzi,
+.iconfont.icon-weihu{
+    color: #31B0D5;
+    font-size: 85px;
+    position: relative;
+    top: 10px;
+}
+.iconfont.icon-gou-copy {
+    color: #21B8ED;
+    margin-right: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+/*endregion*/
+.proService .content div{
+    transition: all .5s;
+}
+.proService .content div:hover{
+    cursor: pointer;
+}
+.proService .content div:hover {
+    color: #31B0D5;
+}
+/*.proService .content p:hover {
+    color: #31B0D5;
+}*/
+.who .main {
+    margin-top: 30px;
+}
+.who p{
+    font-size: 14px;
+    text-align: left;
+    line-height: 25px;
+}
+.who i {
+    font-style: oblique;
+}
+
+.difference {
+    background: #F5824E;
+}
+.difference h2 {
+    color: #fff;
+    font-size: 24px;
+}
+.difference p {
+    color: #303C40;
+    font-size: 14px;
+}
+.difference .circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    top: 13px;
+}
+.iconfont.icon-huihuabaochi{
+    font-size: 55px;
+    color: #31B0D5;
+}
+.iconfont.icon-yanjing{
+    font-size: 40px;
+    color: #31B0D5;
+}
+.iconfont.icon-dianzan{
+    font-size: 40px;
+    color: #31B0D5;
+}
+.iconfont.icon-tuandui-tianchong{
+    font-size: 40px;
+    color: #31B0D5;
+}
+.difference .detail {
+    display: inline-block;
+    text-align: left;
+}
+.difference .bar {
+    margin-bottom: 80px;
+}
+
+
+/*案例*/
+.example .image{
+    margin-top: 50px;
+}
+.example .image div{
+    margin-bottom: 20px;
+}
+
+/*联系我们*/
+.contact {
+    background-color: rgba(33,184,237,0.8);
+    margin-top: 20px;
+}
+.contact p {
+    color: white;
+    font-size: 36px;
+}
+.contact a {
+    display: inline-block;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    transition: all .5s;
+}
+.contact a:hover {
+    background-color: #e6e6e6;
+}
+.contact .iconfont.icon-weixin {
+    color: #31B0D5;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    top: 0;
+    vertical-align: middle;
+}
+@media only screen and (min-width: 768px){
+    .contact p{
+        margin: 120px auto!important;
+    }
+    .contact a {
+        margin: 120px auto!important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .contact p{
+        margin: 30px auto!important;
+    }
+    .contact a {
+        margin: 30px auto!important;
+    }
+}
+
+.footer {
+    background-color: #2f2b2f;
+    color: white;
+}
+.footer h3 {
+    text-align: left;
+    font-size: 18px;
+}
+.footer .first div{
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    transition: all .5s;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.footer .first div:nth-of-type(1){
+    border: 2px solid #fff;
+}
+.footer .first div:nth-of-type(1) a {
+    color: #f26322;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer .first div:nth-of-type(1):hover{
+    background-color: #fff;
+    border-radius: 3px;
+}
+.footer .first div:nth-of-type(2){
+    border: 2px solid #f26322;
+}
+.footer .first div:nth-of-type(2) a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer .first div:nth-of-type(2):hover{
+    background-color: #f26322;
+    border-radius: 3px;
+}
+
+.footer .second a,
+.footer .third a,
+.footer .fourth a{
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    transition: all .5s;
+}
+.footer .second a:hover,
+.footer .third a:hover,
+.footer .fourth a:hover{
+    color: #31B0D5;
+}
+.footer .second span,
+.footer .third span,
+.footer .fourth span{
+    color: #939393;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+.footer .second div,
+.footer .third div,
+.footer .fourth div {
+    margin: 15px 0;
+}
+.footer .third div .iconfont.icon-arrow-right-copy-copy,
+.footer .fourth div .iconfont.icon-location,
+.footer .fourth div .iconfont.icon-dianhua,
+.footer .fourth div .iconfont.icon-icon,
+.footer .fourth div .iconfont.icon-informatiom{
+    font-size: 10px;
+    color: #ccc;
+    margin-right: 10px;
+    transition: all .5s;
+}
+.footer .third div:hover .iconfont.icon-arrow-right-copy-copy,
+.footer .fourth div:hover .iconfont.icon-location,
+.footer .fourth div:hover .iconfont.icon-dianhua,
+.footer .fourth div:hover .iconfont.icon-icon,
+.footer .fourth div:hover .iconfont.icon-informatiom{
+    color: #fff;
+}
+.footer .third div:hover .iconfont.icon-arrow-right-copy-copy{
+    color: #fff;
+}
+.footer .fourth p{
+    text-align: left;
+}
+.footer1 {
+    padding: 40px 0;
+}
+.line {
+    border-top: 1px solid rgba(204,204,204,.2);
+}
+
+/*蒙版系列*/
+.rel {
+    position: relative!important;
+    margin-bottom: 0!important;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rel .covers {
+    position: absolute;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #01c0e1;
+    padding: 12px;
+    transition: all .3s;
+    margin-bottom: 0!important;
+    opacity: 0;
+}
+.rel:hover .covers {
+    transform: translateY(100%);
+    opacity: 1;
+}
+.slideDown{
+    transform: translateY(100%);
+    opacity: 1;
+}
+.rel .covers div {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rel .covers h3 {
+    /*font-size: 22px;*/
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 767px){
+    .rel .covers h3{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .rel .covers h3{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .footer1 h3 {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .footer .first div,
+    .footer .second div,
+    .footer .third div,
+    .footer .fourth div{
+        display: none;
+    }
+}
+
+/*吸顶栏*/
+#header {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    height: 68px;
+    line-height: 68px;
+    background: #fff;
+    box-shadow: 0 1px 0 rgba(13, 14, 15, .5);
+    display: none;
+    padding: 8px 0;
+}
+#header .navbar-brand {
+    padding: 8px 0;
+}
+#header img {
+    width: 121px;
+    height: 34px;
+}
+#header .navbar-right {
+}
+/*@media only screen and (max-width: 991px) {*/
+    /*#bs-example-navbar-collapse-2 nav {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
